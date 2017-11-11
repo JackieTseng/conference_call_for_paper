@@ -1,0 +1,124 @@
+﻿/* CUSTOM 5 COLUMN SPAN LAYOUT
+  *
+  * based on http://gridcalculator.dk/
+  * width => 1200, gutter => 15px, margin => 15px, columns => 5
+  */
+ .row-fluid-5 {
+   width: 100%;
+   *zoom: 1;
+ }
+ .row-fluid-5:before,
+ .row-fluid-5:after {
+   display: table;
+   line-height: 0;
+   content: "";
+ }
+ .row-fluid-5:after {
+   clear: both;
+ }
+ .row-fluid-5 [class*="span"] {
+   display: block;
+   float: left;
+   width: 100%;
+   min-height: 30px;
+   margin-left: 1.875%;
+   *margin-left: 1.875%;
+
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+ }
+
+ .row-fluid-5 .controls-row [class*="span"] + [class*="span"] {
+
+   margin-left: 1.875%;
+ }
+ .row-fluid-5 [class*="span"]:first-child{
+    margin-left: 0;
+ }
+ .row-fluid-5 .span2 {
+   width: 18.5%;
+   *width: 18.5%;
+ }
+
+ /* responsive ONLY */
+
+ @media (max-width: 600px){ /* spans reduce to 100px then go full width */
+
+    .row-fluid-5 [class*="span"]{
+    margin-left: 0;
+    float: left;
+    width: 100%;
+    padding: 10px; 
+    }
+ }
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+font-family: "Swiss","Calibri","Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+font-weight: bold;
+color: inherit;
+text-rendering: optimizelegibility;
+}
+
+.footer p.info {
+color: #888; 
+background-color: #1b1b1b;
+line-height: 18px;
+text-align: center;
+padding: 12px 0;
+margin-top: 15px;
+border-top: 1px solid #dbe7ed;
+}
+
+.footer p.info a{
+color: #909090; 
+cursor: pointer;
+}
+
+.footer {
+margin-left: auto;
+margin-right: auto;
+}
+
+.page-header{
+margin-bottom:10px;
+padding-bottom:5px;
+
+}
+
+#carousel{
+padding-top: 10px;
+}
+
+.bs-docs-sidenav{
+width: 168px;
+}
+
+.section-header{
+padding-top: 5px;
+}
+* {
+font-family: "Swiss","Calibri","Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+}
+
+h2 a:link {
+ text-decoration: none;
+}
+h2 a:visited {
+ text-decoration: none;
+}
+h2 a:hover {
+ text-decoration: none;
+}
+h2 a:active {
+ text-decoration: none;
+}
+
+.nav a {
+cursor: pointer;
+}
+
+.tenpxbr{
+line-height: 10px;
+}
