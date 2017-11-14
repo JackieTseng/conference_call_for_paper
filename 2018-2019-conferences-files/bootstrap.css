@@ -1994,7 +1994,10 @@ legend + .control-group {
 }
 
 table {
-  max-width: 100%;
+  /* max-width: 100%;*/
+  width : 100%;
+  table-layout : fixed;
+  word-wrap : break-word;
   background-color: transparent;
   border-collapse: collapse;
   border-spacing: 0;
