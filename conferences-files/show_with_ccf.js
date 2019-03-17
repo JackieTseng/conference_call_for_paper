@@ -1,6 +1,6 @@
 function get_H_Index(x){
     var tds = x.querySelectorAll('td')
-    td = tds[0]
+    td = tds[6]
     if (td.innerText == "H-Index"){
         return -10000;
     }
@@ -54,6 +54,7 @@ function get_conference_time(x){
 
     return delta;
 }
+
 
 function get_submission_time(x){
     var tds = x.querySelectorAll('td')
@@ -162,7 +163,7 @@ function get_on_click(){
     var tds = t_hand.querySelectorAll('td');    
     tds[3].onclick = makeSortable_by_SubmissionDeadline;
     tds[4].onclick = makeSortable_by_ConferenceDate;
-    tds[0].onclick = makeSortable_by_H_Index;
+    tds[6].onclick = makeSortable_by_H_Index;
 }
 
 window.onload=function(){

@@ -4,6 +4,6 @@
 
 ### TODO List
 - [ ] Add Column: Notification Date
-- [ ] Add Function: Sort by Submission Deadline
+- [x] Add Function: Sort by Submission Deadline
 
 * Updated by Jackie Tseng, **Tsinghua University F205 CV LAB**
