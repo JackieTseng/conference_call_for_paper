@@ -6,4 +6,4 @@
 - [ ] Add Column: Notification Date
 - [x] Add Function: Sort by Submission Deadline
 
-* Updated by Jackie Tseng, **Tsinghua University F205 CV LAB**
+* Updated by Jackie Tseng, **Tsinghua Computer Vision and Intelligent Learning Lab**
