@@ -3,7 +3,8 @@
 * [Conference Page(with CCF)](https://jackietseng.github.io/conference_call_for_paper/conferences-with-ccf.html). China Computer Federation Recommended Ranking, for Chinese student only.
 
 ### TODO List
-- [ ] Add Column: Notification Date
+- [ ] Add Item: Abstract DDL
+- [ ] Add Column: Notification Due
 - [x] Add Function: Sort by Submission Deadline
 
 * Updated by Jackie Tseng, **Tsinghua Computer Vision and Intelligent Learning Lab**
