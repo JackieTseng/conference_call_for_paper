@@ -1,4 +1,4 @@
-﻿/* CUSTOM 5 COLUMN SPAN LAYOUT
+/* CUSTOM 5 COLUMN SPAN LAYOUT
   *
   * based on http://gridcalculator.dk/
   * width => 1200, gutter => 15px, margin => 15px, columns => 5
@@ -121,4 +121,16 @@ cursor: pointer;
 
 .tenpxbr{
 line-height: 10px;
+}
+
+.visible-cn {
+  display: none;
+}
+
+body[data-code=CN] .visible-cn {
+  display: unset;
+}
+
+body[data-code=CN] .hidden-cn {
+  display: none;
 }
