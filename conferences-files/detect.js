@@ -1,7 +1,7 @@
 (function(){
-  fetch('http://ip-api.com/json/?fields=countryCode')
+  fetch('https://ipapi.co/json')
     .then(resp => resp.json())
-    .then(({countryCode}) => {
-      document.body.dataset.code = countryCode;
+    .then(({country}) => {
+      document.body.dataset.code = country;
     });
 }());
