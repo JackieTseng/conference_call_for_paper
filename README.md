@@ -5,6 +5,7 @@
 ### TODO List
 - [ ] Add Item: Abstract DDL
 - [ ] Add Column: Notification Due
+- [ ] Auto Crawler
 - [x] Add Function: Sort by Submission Deadline
 
 * Updated by Jackie Tseng, **Tsinghua Computer Vision and Intelligent Learning Lab**
