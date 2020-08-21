@@ -8,5 +8,5 @@
 - [ ] Auto Crawler
 - [x] Add Function: Sort by Submission Deadline
 
-* P.S. H-index data comes from [Guide2Research](http://www.guide2research.com/topconf)
+* P.S. H-index data comes from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en)
 * Updated by Jackie Tseng, **Tsinghua Computer Vision and Intelligent Learning Lab**
