@@ -3,9 +3,8 @@
 * [Conference Page(with CCF)](https://jackietseng.github.io/conference_call_for_paper/conferences-with-ccf.html). China Computer Federation Recommended Ranking, for Chinese student only.
 
 ### TODO List
-- [ ] Add Item: Abstract DDL
-- [ ] Add Column: Notification Due
 - [ ] Auto Crawler
+- [ ] Add Item: Abstract DDL, Notification Due
 - [x] Add Function: Sort by Submission Deadline
 
 * P.S. H-index data comes from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en)
