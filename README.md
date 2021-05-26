@@ -7,5 +7,7 @@
 - [ ] Add Item: Abstract DDL, Notification Due
 - [x] Add Function: Sort by Submission Deadline
 
-* P.S. H-index data comes from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en)
-* Updated by Jackie Tseng, **Tsinghua Computer Vision and Intelligent Learning Lab**
+### P.S. 
+* H-index data comes from [Google Scholar](https://scholar.google.com/citations?view_op=top_venues&hl=en)
+* DDLs are denoted by *TBD* if they are not finalized and will be corrected once the conference updates the information.
+* These websites is maintained by Jackie Tseng, **Tsinghua Computer Vision and Intelligent Learning Lab**
